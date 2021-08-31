@@ -1,37 +1,106 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title> personal website </title>
-<link rel="stylesheet" type="text/css" href="style.css"/>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <linK rel="stylesheet" href="style.css">
+        <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+        <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+            <!-- <link rel="stylesheet" href="tablet.css"> -->
+    </head>
+    <!--------------Using-FontAwesome-------->
+    <script scr="https://kit.fontawesome.com/c8e4d183c2.js" ></script>
 
-<body>
-<section>
-<!--navigation--------------->
-<nav>
-<!--logo-->
-<a href="#" class="logo">yaunde beri</a>
-<!--menu-->
-<ul>
-<li><a href="#" class="active">Home</a></li>
-<li><a href="#">About</a></li>
-<li><a href="#">Contact me</a></li>
-<li><a href="#">Team</a></li>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
 
-</ul>
-</nav>
-<!--text-------------------->
-  <div class="text-container">
-      <p>Hello</p>
-      <p>I'm yaunde Beri</p>
-      <p>I am a software Engineering student </p>
-      <p>In the college of tecnology, university of bamenda</p>
-        <button class="hire-btn">Hire me</button>
-        <button class="down-cv">Download cv</button>
+        <section id="home">
+            <div class="main">
+                <h1 class="headings"> I AM <br> YAUNDE BERI</h1>
+                <button class="btn">
+                    Hire me
+                </button>
+            </div>
+        </section>
+    <section id="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic">
+                <img src="IMG_20210215_152352_297.jpg" alt="">
+            <div id="intro">
+                <h2>YAUNDE BERI</h2>
+                <P>Hello am Yaunde Beri a level 2 student in the College of Technology (COLTECH), University of Bamenda . I study Software Engineering </P>
+                <p></p>
 
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1 class="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="images/pexels1.jpg" alt="image">
+            <img src="images/pexels2.jpg">
+            <img src="images/pexels3.jpg">
+            <img src="images/pexels4.jpg">
+            <img src="images/pexels5.jpg">
+        </div>
+    </section>
+    <section id="services">
+        <h1 class="headings">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <h1 class="headings">Web Design</h1>
+                <p>I will work with you to design your website the way you desire it to be, I desire websites that work well on mobile and on desktop which  are responsive and adaptive</p>
+            </div>
+            
+            <div class="box">
+                <h1 class="headings">Graphic Design</h1>
+                <p>I will work with you to design and create your logos, flyers, posters and many more. i use the latest technology which makes my designs clean and different from the rest </p>
+
+            </div>
+            <div class="box">
+                <h1 class="headings">Web Development</h1>
+                <p>I work with you to determine the ideal tecnology you want, I leverage new approach to deliver web services from a draft idea to a ready-to-use website or web application </p>
+        </div>
+    </section>
+    <section id="contact">
+      <h1 class="headings">CONTACT</h1>
+      <form action=""  class="form">
+          <input type="text" name="name" class="input" placeholder="Enter Your Name">
+          <input type="email" name="email"class="input" placeholder="Enter Your Email">
+          <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message">
+          </textarea>
+          <input type="submit" value="SEND" id="send">
+        </form>
+        <p>MY CONTACT</p>
+        <p>Phone Number-653737364</p>
+        <p>Email-yaundeamikehbokwi@gmail.com</p>
+    </section>
+    <!-----footer------>
+    <footer>
+        <p>&copy;Yaunde Beri</p>
+        
+        <p>I will give you very satisfactory results on all your projects</p>
+        
+        <!------social--------------->
+        <div class="social-icons">
       
-  </div>
-</section>
-</body>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i claass="fab fa-instagram"></i></a>
+          <a href="#"><i class=" fab fa-youtube"></i></a>
+      
+        </div>
+        <!------copyright----->
+        <P class="copyright">&copy;copyright by Yaunde Beri</P>
+      </footer>
+    </body>
 </html>
